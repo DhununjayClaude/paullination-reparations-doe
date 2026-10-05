@@ -1,0 +1,147 @@
+{
+ "avertissement": "geometrie CFD uniquement -- jamais un seed energie",
+ "outil": "tools/cfd/repare_osm.py",
+ "regle": "lib/cfd/ouvertures.py",
+ "provenance": {
+  "osm": "D:\\Temp\\cfd_lecture\\corpus\\doe\\LargeOffice.osm",
+  "osm_sha256": "0f95ad643af41ece50a571b95b1f469f396d7dcd44131c17ee3e5fefc706ba7d",
+  "rapport": "D:\\Temp\\cfd_lecture\\corpus\\rapports_e1\\LargeOffice.e1.json",
+  "rapport_sha256": "5b5aadd3d6ec5a0d300d155c4a52f64f323e6f76d31a5bcfe63f9425cda5ee8e"
+ },
+ "tolerances": {
+  "TOL_AIRE": 0.0001,
+  "TOL_LARGEUR": 0.001,
+  "TOL_COPLAN": 0.001
+ },
+ "fenetres": [
+  {
+   "fenetre": "Perimeter_bot_ZN_3_Wall_North_Window",
+   "handle": "{e89db012-ad3d-4ba3-8e60-2b6f83de9677}",
+   "portes": [
+    "Perimeter_bot_ZN_3_Wall_North_Door1",
+    "Perimeter_bot_ZN_3_Wall_North_Door2",
+    "Perimeter_bot_ZN_3_Wall_North_Door3",
+    "Perimeter_bot_ZN_3_Wall_North_Door4"
+   ],
+   "aire_portes_m2": [
+    1.9509638400000011,
+    1.9509638400000011,
+    1.9509638400000011,
+    1.9509638400000011
+   ],
+   "aire_portes_dans_fenetre_m2": [
+    1.1145438720000007,
+    1.1145438720000007,
+    1.1145438720000007,
+    1.1145438720000007
+   ],
+   "aire_vitree_avant_m2": 115.89506496,
+   "aire_vitree_apres_m2": 111.436889472,
+   "aire_eclats_m2": 0.0,
+   "eclats_supprimes": [],
+   "n_rectangles": 9,
+   "sous_surfaces_creees": [
+    "Perimeter_bot_ZN_3_Wall_North_Window_p01",
+    "Perimeter_bot_ZN_3_Wall_North_Window_p02",
+    "Perimeter_bot_ZN_3_Wall_North_Window_p03",
+    "Perimeter_bot_ZN_3_Wall_North_Window_p04",
+    "Perimeter_bot_ZN_3_Wall_North_Window_p05",
+    "Perimeter_bot_ZN_3_Wall_North_Window_p06",
+    "Perimeter_bot_ZN_3_Wall_North_Window_p07",
+    "Perimeter_bot_ZN_3_Wall_North_Window_p08"
+   ]
+  },
+  {
+   "fenetre": "Perimeter_bot_ZN_1_Wall_South_Window",
+   "handle": "{e6edd52a-4576-4cd3-90f0-827b1afbf872}",
+   "portes": [
+    "Perimeter_bot_ZN_1_Wall_South_Door1",
+    "Perimeter_bot_ZN_1_Wall_South_Door2",
+    "Perimeter_bot_ZN_1_Wall_South_Door3",
+    "Perimeter_bot_ZN_1_Wall_South_Door4"
+   ],
+   "aire_portes_m2": [
+    1.9509638400000011,
+    1.9509638399999936,
+    1.9509638400000011,
+    1.9509638400000011
+   ],
+   "aire_portes_dans_fenetre_m2": [
+    1.1145438720000007,
+    1.1145438719999963,
+    1.1145438720000007,
+    1.1145438720000007
+   ],
+   "aire_vitree_avant_m2": 115.89506496,
+   "aire_vitree_apres_m2": 111.43688947200002,
+   "aire_eclats_m2": 0.0,
+   "eclats_supprimes": [],
+   "n_rectangles": 9,
+   "sous_surfaces_creees": [
+    "Perimeter_bot_ZN_1_Wall_South_Window_p01",
+    "Perimeter_bot_ZN_1_Wall_South_Window_p02",
+    "Perimeter_bot_ZN_1_Wall_South_Window_p03",
+    "Perimeter_bot_ZN_1_Wall_South_Window_p04",
+    "Perimeter_bot_ZN_1_Wall_South_Window_p05",
+    "Perimeter_bot_ZN_1_Wall_South_Window_p06",
+    "Perimeter_bot_ZN_1_Wall_South_Window_p07",
+    "Perimeter_bot_ZN_1_Wall_South_Window_p08"
+   ]
+  },
+  {
+   "fenetre": "Perimeter_bot_ZN_2_Wall_East_Window",
+   "handle": "{72e33bf8-9116-47b0-86bf-f86191145cb4}",
+   "portes": [
+    "Perimeter_bot_ZN_2_Wall_East_Door1",
+    "Perimeter_bot_ZN_2_Wall_East_Door2"
+   ],
+   "aire_portes_m2": [
+    1.9509638400000011,
+    1.9509638400000011
+   ],
+   "aire_portes_dans_fenetre_m2": [
+    1.1145438720000007,
+    1.1145438720000007
+   ],
+   "aire_vitree_avant_m2": 77.26337664,
+   "aire_vitree_apres_m2": 75.034288896,
+   "aire_eclats_m2": 0.0,
+   "eclats_supprimes": [],
+   "n_rectangles": 5,
+   "sous_surfaces_creees": [
+    "Perimeter_bot_ZN_2_Wall_East_Window_p01",
+    "Perimeter_bot_ZN_2_Wall_East_Window_p02",
+    "Perimeter_bot_ZN_2_Wall_East_Window_p03",
+    "Perimeter_bot_ZN_2_Wall_East_Window_p04"
+   ]
+  },
+  {
+   "fenetre": "Perimeter_bot_ZN_4_Wall_West_Window",
+   "handle": "{64a5623d-c204-46f9-9047-4ef95bd4b60d}",
+   "portes": [
+    "Perimeter_bot_ZN_4_Wall_West_Door1",
+    "Perimeter_bot_ZN_4_Wall_West_Door2"
+   ],
+   "aire_portes_m2": [
+    1.9509638400000011,
+    1.9509638400000011
+   ],
+   "aire_portes_dans_fenetre_m2": [
+    1.1145438720000007,
+    1.1145438720000007
+   ],
+   "aire_vitree_avant_m2": 77.26337664,
+   "aire_vitree_apres_m2": 75.034288896,
+   "aire_eclats_m2": 0.0,
+   "eclats_supprimes": [],
+   "n_rectangles": 5,
+   "sous_surfaces_creees": [
+    "Perimeter_bot_ZN_4_Wall_West_Window_p01",
+    "Perimeter_bot_ZN_4_Wall_West_Window_p02",
+    "Perimeter_bot_ZN_4_Wall_West_Window_p03",
+    "Perimeter_bot_ZN_4_Wall_West_Window_p04"
+   ]
+  }
+ ],
+ "refus": []
+}
