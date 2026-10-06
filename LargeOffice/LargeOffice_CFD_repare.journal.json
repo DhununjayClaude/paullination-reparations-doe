@@ -143,5 +143,280 @@
    ]
   }
  ],
- "refus": []
+ "refus": [],
+ "bandes": {
+  "tolerance_soudure_m": 0.0254,
+  "ancre": "epaisseur de la construction de mur la plus mince (Paul, 05/10)",
+  "ancre_detail": {
+   "construction": "Typical Interior Wall",
+   "epaisseur_m": 0.0254,
+   "couches": [
+    [
+     "G01 13mm gypsum board",
+     0.0127
+    ],
+    [
+     "G01 13mm gypsum board",
+     0.0127
+    ]
+   ],
+   "ignorees": [
+    "(vide : construction par defaut)",
+    "{e449dd66-44b0-4db3-8cc9-7d076408ba0b}"
+   ]
+  },
+  "garde": "jumelles reciproques seulement",
+  "paires": [
+   {
+    "defaut": "DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_1",
+    "faces": [
+     "DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_1",
+     "Perimeter_bot_ZN_1_Floor"
+    ],
+    "bande_avant_m2": 0.005487840000003457,
+    "largeur_avant_m": 0.0011996852046177546,
+    "bande_apres_m2": 0.0,
+    "largeur_apres_m": 0.0,
+    "appariement": "pas d'appariement : contours differents (DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_1 apparie a DataCenter_basement_ZN_6-Perimeter_bot_ZN_1-PPAutoCreateOther, Perimeter_bot_ZN_1_Floor a Perimeter_bot_ZN_1_Floor-PPAutoCreateOther) ; la bande est un debord, pas un oubli"
+   },
+   {
+    "defaut": "DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5",
+    "faces": [
+     "DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5",
+     "Core_bot_ZN_5_Floor"
+    ],
+    "bande_avant_m2": 0.04751016000002993,
+    "largeur_avant_m": 0.0011999636299353403,
+    "bande_apres_m2": 0.0,
+    "largeur_apres_m": 0.0,
+    "appariement": "pas d'appariement : contours differents (DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5 apparie a DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5-PPAutoCreateOther, Core_bot_ZN_5_Floor a Core_bot_ZN_5_Floor-PPAutoCreateOther) ; la bande est un debord, pas un oubli"
+   }
+  ],
+  "refus": [],
+  "grappes": [
+   {
+    "position": [
+     16.0794,
+     0.0,
+     0.0
+    ],
+    "diametre_m": 0.001200000000000756,
+    "faces": [
+     "Basement_Wall_South",
+     "Basement_Wall_West",
+     "DataCenter_basement_ZN_6-Perimeter_bot_ZN_1-PPAutoCreateOther",
+     "DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_1",
+     "DataCenter_basement_ZN_6_Wall_East",
+     "DataCenter_basement_ZN_6_Wall_South",
+     "Perimeter_bot_ZN_1_Floor",
+     "Perimeter_bot_ZN_1_Floor-PPAutoCreateOther"
+    ]
+   },
+   {
+    "position": [
+     16.0794,
+     44.165,
+     0.0
+    ],
+    "diametre_m": 0.001200000000000756,
+    "faces": [
+     "Core_bot_ZN_5_Floor",
+     "Core_bot_ZN_5_Floor-PPAutoCreateOther",
+     "DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5",
+     "DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5-PPAutoCreateOther",
+     "DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_3",
+     "DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_3-PPAutoCreateOther",
+     "Perimeter_bot_ZN_3_Floor",
+     "Perimeter_bot_ZN_3_Floor-PPAutoCreateOther"
+    ]
+   },
+   {
+    "position": [
+     16.0794,
+     4.5732,
+     0.0
+    ],
+    "diametre_m": 0.001200000000000756,
+    "faces": [
+     "Core_bot_ZN_5_Floor",
+     "Core_bot_ZN_5_Floor-PPAutoCreateOther",
+     "DataCenter_basement_ZN_6-Perimeter_bot_ZN_1-PPAutoCreateOther",
+     "DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5",
+     "DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5-PPAutoCreateOther",
+     "DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_1",
+     "Perimeter_bot_ZN_1_Floor",
+     "Perimeter_bot_ZN_1_Floor-PPAutoCreateOther"
+    ]
+   }
+  ],
+  "deplacements": [
+   {
+    "surface": "DataCenter_basement_ZN_6-Perimeter_bot_ZN_1-PPAutoCreateOther",
+    "sommet": 2,
+    "avant": [
+     16.0782,
+     0.0,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     0.0,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "Perimeter_bot_ZN_1_Floor",
+    "sommet": 3,
+    "avant": [
+     16.0782,
+     0.0,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     0.0,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "Perimeter_bot_ZN_3_Floor",
+    "sommet": 3,
+    "avant": [
+     16.0782,
+     44.165,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     44.165,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_3-PPAutoCreateOther",
+    "sommet": 2,
+    "avant": [
+     16.0782,
+     44.165,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     44.165,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "Core_bot_ZN_5_Floor",
+    "sommet": 4,
+    "avant": [
+     16.0782,
+     44.165,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     44.165,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5-PPAutoCreateOther",
+    "sommet": 1,
+    "avant": [
+     16.0782,
+     44.165,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     44.165,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "DataCenter_basement_ZN_6_Ceiling-Perimeter_bot_ZN_3",
+    "sommet": 1,
+    "avant": [
+     16.0782,
+     44.165,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     44.165,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "Core_bot_ZN_5_Floor",
+    "sommet": 3,
+    "avant": [
+     16.0782,
+     4.5732,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     4.5732,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "DataCenter_basement_ZN_6-Perimeter_bot_ZN_1-PPAutoCreateOther",
+    "sommet": 1,
+    "avant": [
+     16.0782,
+     4.5732,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     4.5732,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "Perimeter_bot_ZN_1_Floor",
+    "sommet": 4,
+    "avant": [
+     16.0782,
+     4.5732,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     4.5732,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   },
+   {
+    "surface": "DataCenter_basement_ZN_6_Ceiling-Core_bot_ZN_5-PPAutoCreateOther",
+    "sommet": 2,
+    "avant": [
+     16.0782,
+     4.5732,
+     0.0
+    ],
+    "apres": [
+     16.0794,
+     4.5732,
+     0.0
+    ],
+    "deplacement_m": 0.001200000000000756
+   }
+  ],
+  "appariements": []
+ },
+ "regle_bandes": "lib/cfd/soudures.py"
 }
