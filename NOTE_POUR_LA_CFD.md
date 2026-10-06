@@ -1,5 +1,14 @@
 # Note pour la CFD — les 18 « recouvrements coplanaires » (MediumOffice ×6, LargeOffice ×12)
 
+> **MISE À JOUR (05/10, DEC-0043) — à lire d'abord.** Les recouvrements entre deux ouvertures d'un même mur sont désormais
+> traités par la CFD (DEC-0043). Paullination n'applique plus sa règle des ouvertures aux seeds. **Les deux `.osm` publiés ici
+> la contiennent** : dans `MediumOffice_CFD_repare.osm` et `LargeOffice_CFD_repare.osm`, les fenêtres qui recouvraient une porte
+> sont déjà découpées en rectangles autour d'elle (point 3 ci-dessous ; détail dans chaque `.journal.json`, clé `fenetres`).
+> Si votre STL applique aussi DEC-0043, partez des `.osm` DOE d'origine pour ne pas découper deux fois.
+> `LargeOffice_CFD_repare.osm` contient aussi 11 sommets déplacés de 1,2 mm (deux bandes de 0,0055 et 0,0475 m² fermées entre
+> faces déjà jumelles ; clé `bandes` du journal). Aucune condition aux limites n'a été modifiée dans l'un ou l'autre fichier
+> (0 appariement écrit).
+
 1. Diagnostic : ce n'est PAS un doublon. Chaque paire est une fenêtre en bande continue (z 0.9..2.5 m, toute la longueur du mur)
    et une porte (z 0..2.13 m) sur le même mur extérieur (même parent, même normale) ; recouvrement 1.0–1.1 m² (52–57 % de la porte).
 2. Demande à E1 : renommer la classe (p. ex. `fenetre_recouvre_porte`) quand la paire est fenêtre × porte, et ne plus recommander
